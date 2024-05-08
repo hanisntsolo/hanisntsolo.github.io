@@ -13,14 +13,14 @@ There are many solutions out there but why are you here? because you are looking
 So with out any futher ado, lets get started.
 This is something which will get build under/ around 500 INR/ ~ 6$ if your monitor is 22inches mine was 34inches so it reached INR 1000  roughly 12~13$.
 
-## **Things which will be required.**
+## _**Things which will be required.**_
 
 * ESP8266 NODE MCU - comes for INR 250 ~ 3$ (You need to flash Node-MCU using another set of procedures listed here, it's super easy and super clean, you'll be done in a minute)[Steps](https://tynick.com/blog/11-03-2019/getting-started-with-wled-on-esp8266/).
 * WS2812B LED Strips based on the dimension of your monitor. mine was around 2.5 M so I ordered 3m Strips for INR 700 ~ $9.
 * Last but not the least you need some jumper wires.
 * USB Micro cable to power up your node mcu.
-<!-- Exposition -->
-## **There seems to be a little bit of glitch, I dont know heck what I just purchased!**
+
+## There seems to be a little bit of glitch, I dont know heck what I just purchased!
 
 Things will start to make sense. But here's a quick overview -
  * The PC will gather screen edge data and send it to the Node MCU ESP8266.
@@ -42,7 +42,6 @@ Things will start to make sense. But here's a quick overview -
  * You’ll get to the “Zone placement section” make sure to set 60 LEDs and then select one of Andromedia, Cassiopeia, Pegasus
  * Rest of the wizard steps are self-explanatory, so I won’t go through them
  * You can re-run the configuration wizard from the “Devices” section
-<!-- Conclusion -->
 
 ## Configuration Tips & Tricks
 
