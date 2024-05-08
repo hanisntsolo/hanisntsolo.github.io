@@ -53,6 +53,11 @@ Things will start to make sense. But here's a quick overview -
  * Also, I prefer the “Twin Peaks” preset for Sound Viz as compared to the default one
  * Prismatik will override whatever WLED configuration you may have set, so make sure to kill the Prismatik-WLED script when you only want the WLED effects / colours.
 
+#
+This is the final outcome !
+
+![Ambilight Setup Using ESP8266 powered with WLED Project and WS2812B LED](/assets/img/ambilight/results.jpg){: .mx-auto.d-block :}
+
 ### Wrapping Up
 
 Because I wanted both WLED and Prismatik, I had to go with a more roundabout approach, but I’m quite happy with it as I get the best of both worlds.
