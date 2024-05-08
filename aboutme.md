@@ -4,10 +4,12 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Dhirendra Pratap Singh. I have the following qualities:
 
-- I rock a great mustache
+- I rock a great beard
 - I'm extremely loyal to my family
+- I'm developer from core
+- I'm an avid tinkerer
 
 What else do you need?
 
