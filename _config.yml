@@ -24,7 +24,7 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://hanisntsolo.com"
+  Author's home: "https://singhdhirendrafolio.blogspot.com/"
 
 ################
 # --- Logo --- #
@@ -55,7 +55,7 @@ social-network-links:
   facebook: hanisntsolo
   github: hanisntsolo
   twitter: _dhirendra
-  patreon: DeanAttali
+  # patreon: DeanAttali
   youtube: "@hanisntsolo"
   whatsapp: 9169761452
 #  medium: yourname
@@ -126,7 +126,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "tech,tinkering,blog,hanisntsolo,ambilight,developer"
 
 ######################################
 # --- Colours / background image --- #
