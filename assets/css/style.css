@@ -1,0 +1,10 @@
+/* Button Style */
+#theme-toggle {
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    border: none;
+    padding: 0;
+    color: inherit;
+    display: inline-block;
+}
