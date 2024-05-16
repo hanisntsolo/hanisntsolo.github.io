@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Function to show modal
     function showModal(url) {
-        modal.style.display = "block";
+        modal.style.display = "flex";
         modalImg.src = url;
         captionText.innerHTML = url;
     }
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 /* The Modal (background) */
 .modal {
-    display: none;
+    display: none; /* Initially hide the modal */
     position: fixed;
     z-index: 1;
     left: 0;
@@ -98,11 +98,9 @@ document.addEventListener("DOMContentLoaded", function() {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.9); /* Apply background color only when visible */
     justify-content: center;
     align-items: center;
-    display: flex;
 }
 
 /* Modal Content (image) */
