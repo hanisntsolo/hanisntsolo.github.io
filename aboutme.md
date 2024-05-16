@@ -4,11 +4,11 @@ title: About Me
 subtitle: Why You'd Want to Go on a Date with Me
 use-site-title: true
 bigimg:
-  - "/assets/img/big-img/dhirendraatrautukibeli.jpg"
-  - "/assets/img/big-img/dhirendrastmariaislands.jpg"
-  - "/assets/img/big-img/dhananjayanddhirendraatdonapula.jpg"
-  - "/assets/img/big-img/glass-bridge.jpg"
-  - "/assets/img/big-img/yogeshanddhirendra.jpg"
+  - "/assets/img/big-img/dhirendraatrautukibeli.jpg" : "Rautu Ki Beli / Rishikesh"
+  - "/assets/img/big-img/dhirendrastmariaislands.jpg" : "St Mary's Islands / Udupi"
+  - "/assets/img/big-img/dhananjayanddhirendraatdonapula.jpg" : "DonaPaula / Goa"
+  - "/assets/img/big-img/glass-bridge.jpg" : "Rajgir Glass Bridge / Rajgir"
+  - "/assets/img/big-img/yogeshanddhirendra.jpg" : "Konkann Railways / Konkann"
 ---
 
 ## About Me
