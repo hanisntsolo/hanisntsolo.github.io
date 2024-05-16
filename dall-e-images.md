@@ -1,9 +1,9 @@
 ---
 layout: page
-title: DALL-E Generated Images
+title: DALL-E [OpenAI]
 permalink: /dall-e-images/
 cover-img:
-  - "/assets/img/dall-e/DALL·E 2024-05-16 21.11.00 - Two young women in a room, one taking a selfie with a playful smile and the other sitting in the background with a phone in her hand..webp"
+  - "/assets/img/dall-e/DALL·E 2024-05-16 21.11.39 - A group photo at an Indian wedding with the couple sitting on a decorated stage. The groom is wearing a white sherwani with a turban, and the bride is wearing lehanga.webp"
   - "/assets/img/dall-e/DALL·E 2024-05-16 17.06.48 - A photo-realistic scene of Pune during the rains, with Marathi people enjoying the weather. The streets are wet, with reflections of the city lights..webp"
 ---
 
