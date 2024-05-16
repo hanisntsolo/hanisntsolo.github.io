@@ -13,6 +13,8 @@ permalink: /dall-e-images/
   <span class="close">&times;</span>
   <img class="modal-content" id="modalImage">
   <div id="caption"></div>
+  <a class="prev">&#10094;</a>
+  <a class="next">&#10095;</a>
 </div>
 
 <script>
@@ -32,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
         img.classList.add('dalle-image');
         img.style.cursor = 'pointer';
         img.onclick = function() {
+            currentIndex = images.indexOf(url);
             showModal(url);
         };
         container.appendChild(img);
@@ -46,10 +49,14 @@ document.addEventListener("DOMContentLoaded", function() {
         return array;
     }
 
+    let currentIndex = 0;
+
     // Get the modal
-    var modal = document.getElementById('imageModal');
-    var modalImg = document.getElementById('modalImage');
-    var captionText = document.getElementById('caption');
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    const captionText = document.getElementById('caption');
+    const prev = document.querySelector('.prev');
+    const next = document.querySelector('.next');
 
     // Function to show modal
     function showModal(url) {
@@ -59,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+    const span = document.getElementsByClassName("close")[0];
 
     // When the user clicks on <span> (x), close the modal
     span.onclick = function() {
@@ -72,6 +79,33 @@ document.addEventListener("DOMContentLoaded", function() {
             modal.style.display = "none";
         }
     }
+
+    // Navigate to the previous image
+    prev.onclick = function() {
+        currentIndex = (currentIndex === 0) ? images.length - 1 : currentIndex - 1;
+        showModal(images[currentIndex]);
+    }
+
+    // Navigate to the next image
+    next.onclick = function() {
+        currentIndex = (currentIndex === images.length - 1) ? 0 : currentIndex + 1;
+        showModal(images[currentIndex]);
+    }
+
+    // Handle swipe events for touch screens
+    let startX;
+    modalImg.addEventListener('touchstart', function(event) {
+        startX = event.touches[0].clientX;
+    });
+
+    modalImg.addEventListener('touchend', function(event) {
+        const endX = event.changedTouches[0].clientX;
+        if (startX > endX + 50) {
+            next.onclick();
+        } else if (startX < endX - 50) {
+            prev.onclick();
+        }
+    });
 });
 </script>
 
@@ -158,5 +192,34 @@ document.addEventListener("DOMContentLoaded", function() {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+
+/* Navigation arrows */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.3s;
+    user-select: none;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.prev {
+    left: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 </style>
