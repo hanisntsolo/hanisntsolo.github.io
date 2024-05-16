@@ -2,6 +2,13 @@
 layout: page
 title: About Me
 subtitle: Why You'd Want to Go on a Date with Me
+use-site-title: true
+bigimg:
+  - "/assets/img/big-img/dhirendraatrautukibeli.jpg"
+  - "/assets/img/big-img/dhirendrastmariaislands.jpg"
+  - "/assets/img/big-img/dhananjayanddhirendraatdonapula.jpg"
+  - "/assets/img/big-img/glass-bridge.jpg"
+  - "/assets/img/big-img/yogeshanddhirendra.jpg"
 ---
 
 ## About Me
