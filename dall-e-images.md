@@ -5,6 +5,8 @@ permalink: /dall-e-images/
 cover-img:
   - "/assets/img/dall-e/DALL·E 2024-05-16 21.11.39 - A group photo at an Indian wedding with the couple sitting on a decorated stage. The groom is wearing a white sherwani with a turban, and the bride is wearing lehanga.webp"
   - "/assets/img/dall-e/DALL·E 2024-05-16 17.06.48 - A photo-realistic scene of Pune during the rains, with Marathi people enjoying the weather. The streets are wet, with reflections of the city lights..webp"
+  - "/assets/img/dall-e/DALL·E 2024-05-17 01.27.32 - A cinematic and dramatic scene with two powerful wizards, reminiscent of Voldemort and Dumbledore, engaged in an intense duel. Voldemort appears more .webp"
+  - "/assets/img/dall-e/DALL·E 2024-05-17 01.27.54 - A photorealistic image of a character resembling Dumbledore, showcasing his magical capabilities..webp"
 ---
 
 ## DALL-E Generated Images
