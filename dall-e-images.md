@@ -113,14 +113,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
 /* Caption of Modal Image */
 #caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
     text-align: center;
     color: #ccc;
-    padding: 10px 0;
-    height: auto;
+    font-size: 0.9em;
+    font-style: italic;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 /* Add Animation - Zoom in the Modal */
