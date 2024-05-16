@@ -65,6 +65,13 @@ document.addEventListener("DOMContentLoaded", function() {
     span.onclick = function() {
         modal.style.display = "none";
     }
+
+    // When the user clicks anywhere outside of the modal image, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
 });
 </script>
 
@@ -86,7 +93,6 @@ document.addEventListener("DOMContentLoaded", function() {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 60px;
     left: 0;
     top: 0;
     width: 100%;
@@ -94,14 +100,17 @@ document.addEventListener("DOMContentLoaded", function() {
     overflow: auto;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.9);
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 /* Modal Content (image) */
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
-    max-width: 700px;
+    max-width: 80%;
+    max-height: 80%;
 }
 
 /* Caption of Modal Image */
@@ -113,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function() {
     text-align: center;
     color: #ccc;
     padding: 10px 0;
-    height: 150px;
+    height: auto;
 }
 
 /* Add Animation - Zoom in the Modal */
