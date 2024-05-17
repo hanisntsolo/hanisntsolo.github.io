@@ -302,13 +302,11 @@ exclude:
 plugins:
  - jekyll-paginate
  - jekyll-sitemap
- - jekyll-remote-theme
+#  - jekyll-remote-theme
 
-theme: jekyll-remote-theme
-dark_mode: true
-
-  
-remote_theme: daattali/beautiful-jekyll@6.0.1
+# theme: jekyll-remote-theme
+# dark_mode: true
+# remote_theme: daattali/beautiful-jekyll@6.0.1
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
