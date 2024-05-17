@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-# frozen_string_literal: true
-
 Gem::Specification.new do |spec|
   spec.name          = "beautiful-jekyll-theme"
   spec.version       = "6.0.1"
@@ -29,9 +27,9 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "csv"
   spec.add_runtime_dependency "base64"
   spec.add_runtime_dependency "bigdecimal"
+  spec.add_runtime_dependency "rubyzip"
 
   spec.add_development_dependency "bundler", ">= 1.16"
   spec.add_development_dependency "rake", "~> 12.0"
   spec.add_development_dependency "appraisal", "~> 2.5"
 end
-
