@@ -325,6 +325,7 @@ exclude:
 plugins:
  - jekyll-paginate
  - jekyll-sitemap
+ - jekyll-seo-tag
 #  - jekyll-remote-theme
 
 # theme: jekyll-remote-theme
