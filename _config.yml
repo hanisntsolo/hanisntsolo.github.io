@@ -193,7 +193,7 @@ footer-hover-col: "#E91E63"  # Match link hover color for consistency
 #################################
 
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
-gtag: "UA-159377002-1"
+gtag: "G-XKP4J39NGB"
 google_analytics: UA-159377002-1
 
 
