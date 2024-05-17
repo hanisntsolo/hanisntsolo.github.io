@@ -136,27 +136,38 @@ keywords: "tech,tinkering,blog,hanisntsolo,ambilight,developer"
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
 # Background color for pages
-page-col:"#1E1E1E"  # Dark background for a techy feel
+page-col: "#FFFFFF"  # Keep a clean white background
+
 # Text color
-text-col:"#C8C8C8"  # Light grey for contrast against dark background
+text-col: "#404040"  # Dark grey for readability
+
 # Link color
-link-col:"#0DB0FF"  # Bright blue, commonly used in tech interfaces
+link-col: "#FF4081"  # Bright pink for playful links
+
 # Link hover color
-hover-col:"#00A1D9"  # Slightly darker blue for hover state
+hover-col: "#E91E63"  # Slightly darker pink for hover effect
+
 # Navbar background color
-navbar-col:"#2A2A2A"  # Slightly lighter than page background
+navbar-col: "#FFEB3B"  # Vibrant yellow for a cheerful navbar
+
 # Navbar text color
-navbar-text-col:"#C8C8C8"  # Matches main text color for consistency
+navbar-text-col: "#404040"  # Dark grey for readability
+
 # Navbar border color
-navbar-border-col:"#3A3A3A"  # Subtle border color to differentiate navbar
+navbar-border-col: "#FBC02D"  # Slightly darker yellow for navbar border
+
 # Footer background color
-footer-col:"#2A2A2A"  # Consistent with navbar background
+footer-col: "#FFEB3B"  # Match navbar background for consistency
+
 # Footer text color
-footer-text-col:"#888888"  # Slightly lighter grey for footer text
+footer-text-col: "#777777"  # Slightly lighter grey for footer text
+
 # Footer link color
-footer-link-col:"#C8C8C8"  # Matches main text color
+footer-link-col: "#FF4081"  # Match link color for consistency
+
 # Footer link hover color
-footer-hover-col:"#00A1D9"  # Matches link hover color
+footer-hover-col: "#E91E63"  # Match link hover color for consistency
+
 
 
 # Alternatively, the navbar, footer, and page background can be set to an image
