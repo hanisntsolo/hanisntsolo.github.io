@@ -5,10 +5,11 @@ subtitle: Why You'd Want to Go on a Date with Me
 use-site-title: true
 cover-img:
   - "/assets/img/big-img/dhirendraatrautukibeli.jpg" : "Rautu Ki Beli / Rishikesh"
-  - "/assets/img/big-img/dhirendrastmariaislands.jpg" : "St Mary's Islands / Udupi"
-  - "/assets/img/big-img/dhananjayanddhirendraatdonapula.jpg" : "DonaPaula / Goa"
+  # - "/assets/img/big-img/dhirendrastmariaislands.jpg" : "St Mary's Islands / Udupi"
+  # - "/assets/img/big-img/dhananjayanddhirendraatdonapula.jpg" : "DonaPaula / Goa"
   - "/assets/img/big-img/glass-bridge.jpg" : "Rajgir Glass Bridge / Rajgir"
-  - "/assets/img/big-img/yogeshanddhirendra.jpg" : "Konkann Railways / Konkann"
+  # - "/assets/img/big-img/yogeshanddhirendra.jpg" : "Konkann Railways / Konkann"
+  - "/assets/img/aboutme/65300178-7795-4108-96d8-c309a48dd30e.webp"
 ---
 
 ## About Me
