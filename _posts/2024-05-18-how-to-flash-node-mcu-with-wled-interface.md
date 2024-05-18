@@ -8,6 +8,8 @@ share-img: /assets/img/16-may-2024/DALL·E 2024-05-18 13.21.12 - A vibrant, cool
 tags: [wled, ambilight, esp8266, ws2812b]
 author: Dhirendra Singh
 ---
+<!-- Introduction -->
+Welcome to the world of dazzling LED displays! This guide will walk you through setting up WLED on an ESP8266 microcontroller. Whether you're a DIY enthusiast or a beginner, you'll find this project both exciting and rewarding. By the end, you'll have a dynamic, customizable lighting solution that can transform any space. Ready to light up your life? Let's get started!
 
 # _**Getting Started with WLED on ESP8266**_
 
