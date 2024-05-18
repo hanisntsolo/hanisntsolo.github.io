@@ -27,6 +27,11 @@ navbar-links:
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://singhdhirendrafolio.blogspot.com/"
 
+###################
+# --- Favicon --- #
+###################
+favicon: /assets/img/favicon/another/favicon.ico
+
 ################
 # --- Logo --- #
 ################
