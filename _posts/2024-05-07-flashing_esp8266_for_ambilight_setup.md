@@ -3,7 +3,7 @@ layout: post
 title: Create Ambilight Using ESP8266 and WS2812B LED
 subtitle: Dive deep if you are looking into creating ambilight for gaming setup
 cover-img: /assets/img/ambilight/cover.png
-thumbnail-img: /assets/img/ambilight/DALL·E 2024-05-18 13.59.43 - A photorealistic image of an ESP8266 NodeMCU. The board is shown up close, highlighting its components and connections. The background is a clean, whi.webp
+thumbnail-img: /assets/img/ambilight/node_mcu.png
 share-img: /assets/img/ambilight/cover.png
 tags: [ambilight, esp8266, ws2812b]
 author: Dhirendra Singh

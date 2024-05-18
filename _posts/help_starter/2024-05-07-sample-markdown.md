@@ -2,6 +2,8 @@
 layout: post
 title: Sample blog post to learn markdown tips
 subtitle: There's lots to learn!
+thumbnail-img: /assets/img/markdown/DALL·E 2024-05-18 13.59.36 - A photorealistic image depicting the benefits of learning Markdown. The image shows a person working on a laptop with a well-organized Markdown file o.webp
+cover-img: /assets/img/markdown/9f50019a-2689-4af1-9fdc-5feef27735a3.webp
 gh-repo: hanisntsolo/hanisntsolo.github.io
 gh-badge: [star, fork, follow]
 tags: [test]
