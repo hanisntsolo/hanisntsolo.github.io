@@ -317,6 +317,7 @@ defaults:
 
 include:
   - assets/img/dall-e
+  - assets/img/codeforces
   - assets/css
   - assets/js
 # Exclude these files from production site
