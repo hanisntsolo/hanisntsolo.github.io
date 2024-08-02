@@ -8,11 +8,11 @@ share-img: assets/img/codeforces/clipfly-ai-20240720142347.jpg
 tags: [Codeforces, Docker, IoT, Smart Lamp, Competitive Programming, Open Source]
 author: Dhirendra Singh
 ---
-# Setting Up Your Codeforces Lamp: Real-time Programming Feedback with Docker and IoT
 
-![Codeforces Lamp](https://yourimageurl.com/image.jpg) <!-- Add a relevant image URL -->
-
+<!-- Introduction -->
 Welcome to the world of smart coding! 🚀 In this article, we're diving into an exciting project that combines the power of **Codeforces** and **Docker** with IoT to bring real-time feedback to your coding journey. Introducing the **Codeforces Lamp**, a cutting-edge solution designed for developers and competitive programming enthusiasts who want to elevate their coding experience with interactive and visual feedback.
+
+# Setting Up Your Codeforces Lamp: Real-time Programming Feedback with Docker and IoT
 
 ## Why Codeforces Lamp?
 
