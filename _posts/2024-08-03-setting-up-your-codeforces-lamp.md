@@ -1,13 +1,11 @@
 ---
 layout: post
 title: "Setting Up Your Codeforces Lamp: Real-time Programming Feedback with Docker and IoT"
-date: 2024-08-03
 subtitle: How exiting it would be to see your submissions in realtime?
 cover-img: assets/img/codeforces/clipfly-ai-20240720142347.jpg
 thumbnail-img: assets/img/codeforces/Codeforces-lamp.png
 share-img: assets/img/codeforces/clipfly-ai-20240720142347.jpg
 tags: [Codeforces, Docker, IoT, Smart Lamp, Competitive Programming, Open Source]
-categories: [Projects, Programming, Tech]
 author: Dhirendra Singh
 ---
 # Setting Up Your Codeforces Lamp: Real-time Programming Feedback with Docker and IoT
