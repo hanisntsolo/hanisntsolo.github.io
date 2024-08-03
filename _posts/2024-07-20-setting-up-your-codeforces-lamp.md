@@ -107,6 +107,6 @@ Happy coding! 🎉
 
 ## Additional Resources
 
-[Codeforces API Documentation](https://codeforces.com/apiHelp)
-[Docker Official Documentation](https://docs.docker.com/manuals/)
-[Tuya Developer IoT Platform](https://platform.tuya.com/)
+- [Codeforces API Documentation](https://codeforces.com/apiHelp)
+- [Docker Official Documentation](https://docs.docker.com/manuals/)
+- [Tuya Developer IoT Platform](https://platform.tuya.com/)
