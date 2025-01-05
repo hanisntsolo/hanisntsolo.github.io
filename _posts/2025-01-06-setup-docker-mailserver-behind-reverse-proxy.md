@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setup free docker-mailserver behing nginx reverse proxy 
+title: Setup free docker-mailserver behind nginx reverse proxy 
 subtitle: I know I know you are here after lot of headbanging lets check this out together
 cover-img: /assets/img/docker-mailserver/cover.png
 thumbnail-img: /assets/img/docker-mailserver/cover.png
