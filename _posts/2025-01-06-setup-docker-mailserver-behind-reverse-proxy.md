@@ -175,4 +175,11 @@ Setup the smtp.falcon.hanisntsolo.com for sending the mails from any known suppl
 
 ![Succesful Email Sent](/assets/img/docker-mailserver/output-mail.png)
 
+
+## Verify you Setup
+
+Visit [helloinbox.email](https://www.helloinbox.email/) and verify you setup all should be green.
+
+![Setup](/assets/img/docker-mailserver/helloinbox.png)
+
 ### Reach out to me if you have any issues setting this up, I may help :)
