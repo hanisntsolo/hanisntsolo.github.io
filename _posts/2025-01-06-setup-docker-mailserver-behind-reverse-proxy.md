@@ -173,4 +173,4 @@ Setup the smtp.falcon.hanisntsolo.com for sending the mails from any known suppl
 
 ![Succesful Email Sent](/assets/img/docker-mailserver/output-mail.png)
 
-### Reach out to me if you have any issues setting this up I may help :)
+### Reach out to me if you have any issues setting this up, I may help :)
