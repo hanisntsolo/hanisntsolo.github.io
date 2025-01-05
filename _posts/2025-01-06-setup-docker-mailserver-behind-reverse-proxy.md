@@ -8,6 +8,8 @@ share-img: /assets/img/docker-mailserver/cover.png
 tags: [docker-mailserver, nginx-proxy-manager, docker]
 author: Dhirendra Singh
 ---
+
+
 ## _**I know I know you are here after lot of headbanging lets check this out together**_
 <!-- Introduction -->
 Setting up a reliable and secure mail server can be a daunting task, especially when you’re juggling multiple services behind a reverse proxy. In this guide, we’ll walk through setting up Docker-Mailserver behind Nginx Proxy Manager (NPM). Let’s simplify the process step by step.
