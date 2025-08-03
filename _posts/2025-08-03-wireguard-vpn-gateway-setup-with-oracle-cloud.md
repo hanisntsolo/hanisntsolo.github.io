@@ -140,20 +140,17 @@ sudo nano /etc/iptables/rules.v4
 ```
 
 2. **Add explicit ACCEPT rules before any REJECT rules:**
-```bash
-# Please remove the # while using the below rules. I added them on purpose so that the rules render properly in this artice.
-
-# -A INPUT -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT
-# -A INPUT -p tcp -m state --state NEW -m tcp --dport 81 -j ACCEPT
-# -A INPUT -p tcp -m state --state NEW -m tcp --dport 443 -j ACCEPT
-# -A INPUT -p udp --dport 51820 -j ACCEPT
-# -A INPUT -i wg0 -j ACCEPT
-
-# -A FORWARD -i ens3 -o wg0 -j ACCEPT
-# -A FORWARD -i wg0 -o ens3 -j ACCEPT
-# -A FORWARD -p tcp -d 10.8.0.2 --dport 80 -j ACCEPT
-# -A FORWARD -p tcp -d 10.8.0.2 --dport 81 -j ACCEPT
-# -A FORWARD -p tcp -d 10.8.0.2 --dport 443 -j ACCEPT
+```ini
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 81 -j ACCEPT
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 443 -j ACCEPT
+-A INPUT -p udp --dport 51820 -j ACCEPT
+-A INPUT -i wg0 -j ACCEPT
+-A FORWARD -i ens3 -o wg0 -j ACCEPT
+-A FORWARD -i wg0 -o ens3 -j ACCEPT
+-A FORWARD -p tcp -d 10.8.0.2 --dport 80 -j ACCEPT
+-A FORWARD -p tcp -d 10.8.0.2 --dport 81 -j ACCEPT
+-A FORWARD -p tcp -d 10.8.0.2 --dport 443 -j ACCEPT
 ```
 
 **Apply the changes:**
