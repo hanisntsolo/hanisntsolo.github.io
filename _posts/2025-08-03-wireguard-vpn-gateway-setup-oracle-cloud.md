@@ -2,9 +2,9 @@
 layout: post
 title: WireGuard VPN Gateway Setup on Oracle Cloud Infrastructure
 subtitle: Complete guide for setting up WireGuard VPN gateway with port forwarding on Oracle Cloud
-cover-img: /assets/img/wireguard/wiregurard.png
-thumbnail-img: /assets/img/wireguard/wiregurard.png
-share-img: /assets/img/wireguard/wiregurard.png
+cover-img: /assets/img/wireguard/wireguard.png
+thumbnail-img: /assets/img/wireguard/wireguard.png
+share-img: /assets/img/wireguard/wireguard.png
 tags: [wireguard, vpn, oracle-cloud, networking, iptables, port-forwarding, infrastructure]
 author: hanisntsolo
 ---
