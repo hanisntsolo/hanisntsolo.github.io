@@ -134,13 +134,14 @@ sudo nano /etc/iptables/rules.v4
 **Key Changes:**
 
 1. **Remove or comment out these lines:**
-```bash
+```yaml
 # -A INPUT -j REJECT --reject-with icmp-host-prohibited
 # -A FORWARD -j REJECT --reject-with icmp-host-prohibited
 ```
 
 2. **Add explicit ACCEPT rules before any REJECT rules:**
-```bash
+```yaml
+
 -A INPUT -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT
 -A INPUT -p tcp -m state --state NEW -m tcp --dport 81 -j ACCEPT
 -A INPUT -p tcp -m state --state NEW -m tcp --dport 443 -j ACCEPT
@@ -152,6 +153,7 @@ sudo nano /etc/iptables/rules.v4
 -A FORWARD -p tcp -d 10.8.0.2 --dport 80 -j ACCEPT
 -A FORWARD -p tcp -d 10.8.0.2 --dport 81 -j ACCEPT
 -A FORWARD -p tcp -d 10.8.0.2 --dport 443 -j ACCEPT
+
 ```
 
 **Apply the changes:**
