@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-subtitle: Why You'd Want to Go on a Date with Me
+subtitle: Builder, engineer, and lifelong tinkerer
 use-site-title: true
 cover-img:
   - "/assets/img/big-img/dhirendraatrautukibeli.jpg" : "Rautu Ki Beli / Rishikesh"

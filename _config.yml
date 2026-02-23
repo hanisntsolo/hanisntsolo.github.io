@@ -20,13 +20,15 @@ author: Dhirendra Singh
 ###############################################
 
 navbar-links:
+  Start Here: "start-here"
+  Projects: "projects"
+  Tutorials:
+    - Browse by Tag: "/tags/"
+    - Latest Posts: "/"
+  Request Tutorial: "request-tutorial"
   Dall-e: "dall-e-images"
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://singhdhirendrafolio.blogspot.com/"
-  Resume`: "https://hanisntsolo.github.io/resume"
+  Resume: "https://hanisntsolo.github.io/resume"
 
 ###################
 # --- Favicon --- #
